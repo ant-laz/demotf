@@ -1,5 +1,5 @@
 resource "google_compute_instance" "terraform" {
-  project      = ""
+  project      = "python-lab-329118"
   name         = "terraform"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
